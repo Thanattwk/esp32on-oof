@@ -2,7 +2,7 @@
 
 const int ledPin = 2;             // กำหนดขาพิน 2 (LED บนบอร์ด ESP32)
 unsigned long previousTime = 0;   // ตัวแปรสำหรับเก็บเวลาล่าสุดที่ทำงาน
-const long interval = 1000;       // ระยะเวลาหน่วง 1000 มิลลิวินาที (1 วินาที)
+const long interval = 500;       // ระยะเวลาหน่วง 500 มิลลิวินาที (0.5 วินาที)
 
 void setup() {
   // 1. ตั้งค่าความเร็วการสื่อสาร (Baud Rate) ให้ตรงกับ platformio.ini
